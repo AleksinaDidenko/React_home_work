@@ -1,0 +1,17 @@
+.Blocks {
+  margin-top: 20px;
+  border: 1px solid green;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  &:not(:last-child) {
+    margin-right: 20px;
+  }
+  .BlocksInfo {
+    border: 1px solid red;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}

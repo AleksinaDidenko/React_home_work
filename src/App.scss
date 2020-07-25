@@ -1,0 +1,40 @@
+.Wrapper {
+  border: 1px solid red;
+  display: block;
+  align-items: center;
+  justify-content: space-between;
+  .blocks {
+    display: block;
+    align-items: center;
+    border: 1px solid green;
+    margin: 0 auto;
+    width: 600px;
+    padding: 10px;
+    .filterButtons{
+      margin-bottom: 10px;
+      
+    }
+    .block {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-radius: 5px;
+      background: rgba(7, 134, 238, 0.397);
+      margin-bottom: 10px;
+      padding: 10px;
+      &.done {
+        background: rgba(8, 233, 8, 0.589);
+      }
+      p {
+        font-size: 16px;
+        color: red;
+      }
+    }
+  }
+}
+.Blocks__wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
